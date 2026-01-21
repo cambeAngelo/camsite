@@ -1,0 +1,28 @@
+{
+  "name": "camsite",
+  "version": "1.0.0",
+  "description": "Portfolio builder SaaS platform",
+  "private": true,
+  "scripts": {
+    "install-api": "cd apps/api && npm install",
+    "install-web": "cd apps/web && npm install",
+    "install-all": "npm run install-api && npm run install-web",
+    "dev-api": "cd apps/api && npm run dev",
+    "dev-web": "cd apps/web && npm run dev",
+    "build-api": "cd apps/api && npm run build",
+    "build-web": "cd apps/web && npm run build"
+  },
+  "keywords": [
+    "portfolio",
+    "builder",
+    "saas",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
